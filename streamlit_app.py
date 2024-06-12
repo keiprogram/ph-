@@ -13,7 +13,7 @@ st.write('がんばってください！')
 # Load the data
 @st.cache
 def load_data():
-    return pd.read_excel("古文単語リスト.xlsx")
+    return pd.read_excel("物理公式集.xlsx")
 
 words_df = load_data()
 
